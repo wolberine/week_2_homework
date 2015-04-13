@@ -96,7 +96,49 @@
         </a>
       </h2>
     </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h1>h1. Bootstrap heading</h1>
+        <h2>h2. Bootstrap heading</h2>
+        <h3>h3. Bootstrap heading</h3>
+        <h4>h4. Bootstrap heading</h4>
+        <h5>h5. Bootstrap heading</h5>
+        <h6>h6. Bootstrap heading</h6>
+        <p class="lead">stuff</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Example body copy</h2>
+        <p>body copy</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Example emphasis copy</h2>
+        <p class="text-muted">stuff</p>
+        <p class="text-primary">stuff</p>
+        <p class="text-success">stuff</p>
+        <p class="text-info">stuff</p>
+        <p class="text-warning">stuff</p>
+        <p class="text-danger">stuff</p>
+      </div>
+    </div>
 
+
+
+    <div class="page-header">
+      <h3>Blockquotes</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="pull-right">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div>
     <a name="buttons"></a>
     <div class="page-header">
       <h2>
@@ -115,6 +157,51 @@
       </h2>
     </div>
 
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Standard button -->
+        <button type="button" class="btn btn-default">Default</button>
+
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-primary">Primary</button>
+
+        <!-- Indicates a successful or positive action -->
+        <button type="button" class="btn btn-success">Success</button>
+
+        <!-- Contextual button for informational alert messages -->
+        <button type="button" class="btn btn-info">Info</button>
+
+        <!-- Indicates caution should be taken with this action -->
+        <button type="button" class="btn btn-warning">Warning</button>
+
+        <!-- Indicates a dangerous or potentially negative action -->
+        <button type="button" class="btn btn-danger">Danger</button>
+
+        <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+        <button type="button" class="btn btn-link">Link</button>
+        <p>
+          <button type="button" class="btn btn-primary btn-lg">Large button</button>
+          <button type="button" class="btn btn-default btn-lg">Large button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary">Default button</button>
+          <button type="button" class="btn btn-default">Default button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-sm">Small button</button>
+          <button type="button" class="btn btn-default btn-sm">Small button</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+          <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+        <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+      </div>
+    </div>
+
     <a name="navbars"></a>
     <div class="page-header">
       <h2>
@@ -123,6 +210,62 @@
           <i class="fa fa-question-circle"></i>
         </a>
       </h2>
+    </div>
+
+    <div class="row">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     </div>
 
     <a name="tables"></a>
@@ -134,6 +277,40 @@
         </a>
       </h2>
     </div>
+    <div class="row">
+      <table class="table">
+        <caption>Optional table caption.</caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
 
     <a name="forms"></a>
     <div class="page-header">
@@ -143,6 +320,53 @@
           <i class="fa fa-question-circle"></i>
         </a>
       </h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <fieldset disabled>
+            <div class="form-group">
+              <label for="disabledTextInput">Disabled input</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            </div>
+            <div class="form-group">
+              <label for="disabledSelect">Disabled select menu</label>
+              <select id="disabledSelect" class="form-control">
+                <option>Disabled select</option>
+              </select>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Can't check this
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
 
     <a name="navs"></a>
@@ -154,33 +378,345 @@
         </a>
       </h2>
     </div>
-
-    <a name="indicators"></a>
-    <div class="page-header">
-      <h2>
-        Indicators
-      </h2>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Profile</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+       <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+      </ul>
     </div>
+    <div class="col-md-4">
+     <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Library</a></li>
+      <li class="active">Data</li>
+    </ol>
+  </div>
 
-    <a name="progress-bars"></a>
-    <div class="page-header">
-      <h2>
-        Progress Bars
-        <a href="http://getbootstrap.com/components/#progress" target="_blank" class="btn btn-default btn-xs">
-          <i class="fa fa-question-circle"></i>
-        </a>
-      </h2>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <nav>
+      <ul class="pagination">
+        <li>
+          <a href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+          <a href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-md-4">
+   <nav>
+    <ul class="pager">
+      <li><a href="#">Previous</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="col-md-4">
+</div>
+</div>
+
+<a name="indicators"></a>
+<div class="page-header">
+  <h2>
+    Indicators
+  </h2>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message. </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="alert alert-info" role="alert">This alert needs your attention, but it's not super important. </div>
+  </div>
+  <div class="col-md-4">
+    <div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good. </div>
+  </div>
+  <div class="col-md-4">
+    <div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again. </div>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-md-4">
+    <h3>Labels!!!</h3>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+  </div>
+  <div class="col-md-4">
+    <h3>Badges!</h3>
+    <a href="#">Inbox <span class="badge">42</span></a>
+
+    <button class="btn btn-primary" type="button">
+      Messages <span class="badge">4</span>
+    </button>
+  </div>
+  <div class="col-md-4">
+  </div>
+</div>
+
+<a name="progress-bars"></a>
+<div class="page-header">
+  <h2>
+    Progress Bars
+    <a href="http://getbootstrap.com/components/#progress" target="_blank" class="btn btn-default btn-xs">
+      <i class="fa fa-question-circle"></i>
+    </a>
+  </h2>
+</div>
+<div class="row">
+  <h3>Basic</h3>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+      <span class="sr-only">60% Complete</span>
     </div>
-
-    <a name="containers"></a>
-    <div class="page-header">
-      <h2>
-        Containers
-      </h2>
+  </div>
+</div>
+<div class="row">
+  <h3>Contextual Alternatives</h3>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+      <span class="sr-only">40% Complete (success)</span>
     </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+      <span class="sr-only">20% Complete</span>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+      <span class="sr-only">60% Complete (warning)</span>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+      <span class="sr-only">80% Complete (danger)</span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <h3>Striped</h3>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+      <span class="sr-only">40% Complete (success)</span>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+      <span class="sr-only">20% Complete</span>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+      <span class="sr-only">60% Complete (warning)</span>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+      <span class="sr-only">80% Complete (danger)</span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <h3>Animated</h3>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+      <span class="sr-only">45% Complete</span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <h3>Stacked</h3>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" style="width: 35%">
+      <span class="sr-only">35% Complete (success)</span>
+    </div>
+    <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+      <span class="sr-only">20% Complete (warning)</span>
+    </div>
+    <div class="progress-bar progress-bar-danger" style="width: 10%">
+      <span class="sr-only">10% Complete (danger)</span>
+    </div>
+  </div>
+</div>
 
-    <hr>
+<a name="containers"></a>
+<div class="page-header">
+  <h2>
+    Containers
+  </h2>
+</div>
+<div class="row">
+  <div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>jumbotron stuff</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  </div>
+</div>
+<div class="row">
+  <h3>List Groups</h3>
+  <div class="col-md-4">
+    <ul class="list-group">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+  </div>
+  <div class="col-md-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        Cras justo odio
+      </a>
+      <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+      <a href="#" class="list-group-item">Morbi leo risus</a>
+      <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+      <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">stuff</p>
+      </a>
+    </div>
+  </div>
+
+</div>
+<div class="row">
+  <h3>Panels</h3>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        Basic panel example
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">Panel heading without title</div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel title</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Panel content
+        </div>
+        <div class="panel-footer">Panel footer</div>
+      </div>
+    </div>
 
   </div>
+  <div class="col-md-4">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 id="panel-title" class="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 id="panel-title" class="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 id="panel-title" class="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+
+
+  </div>
+  <div class="col-md-4">
+      <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 id="panel-title" class="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 id="panel-title" class="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <h3>Wells</h3>
+  <div class="col-md-4">
+
+    <div class="well">
+      Look, I'm in a well!
+    </div>
+
+  </div>
+  <div class="col-md-4">
+
+    <div class="well well-lg">
+      Look, I'm in a large well!
+    </div>
+
+  </div>
+  <div class="col-md-4">
+
+    <div class="well well-sm">
+      Look, I'm in a small well!
+    </div>
+
+  </div>
+</div>
+<hr>
+
+</div>
 </body>
 </html>
